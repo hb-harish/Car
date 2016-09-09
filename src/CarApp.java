@@ -4,8 +4,8 @@ public class CarApp
 	
 	public static void main(String[] args) 
 	{
-		Car a = new Car("Red","Ferrari","2015");
-		Car b = new Car("Yellow", "Lamborghini","2016");
+		Car a = new Car("Red","Ferrari");
+		Car b = new Car("Yellow", "Lamborghini");
 		System.out.println(a.setStart());
 		System.out.println(b.setStart());
 		System.out.println(a.setAcc());
