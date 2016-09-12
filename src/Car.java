@@ -4,6 +4,8 @@ public class Car extends Vehicle
 
 
 //	private double speed;
+	private Driver1 a;
+	private Driver2 b;
 	
 	public Car()
 	{
@@ -61,5 +63,15 @@ public class Car extends Vehicle
 //	{
 //		return String.format(year);
 //	}
+	public String getName1()
+	{
+		a = new Driver1();
+		return String.format(color + " " + type + " is drven by " + a.getName());
+	}
+	public String getName2()
+	{
+		b = new Driver2();
+		return String.format(color + " " + type + " is drven by " + b.getName());
+	}
 	
 }

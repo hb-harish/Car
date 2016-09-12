@@ -26,6 +26,9 @@ public class CarApp
 		System.out.println(a.setDec());
 		System.out.println(a.setStop());
 		System.out.println(b.setStop());
+		System.out.println(a.setStop());
+		System.out.println(a.getName1());
+		System.out.println(b.getName2());
 		
 		
 	}
